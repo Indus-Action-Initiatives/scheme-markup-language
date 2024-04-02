@@ -1,0 +1,23 @@
+table locations
+    label locations
+    column id
+        type string
+        sql id
+    column area_type
+        type string
+        sql area_type
+    column pincode
+        type string
+        sql pincode
+    column ward_number
+        type string
+        sql wardNumber
+    column ward_name
+        type string
+        sql wardName
+    column village
+        type string
+        sql village
+    column surveyVillageTownCity
+        type string
+        sql surveyVillageTownCity

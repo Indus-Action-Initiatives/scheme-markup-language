@@ -1,0 +1,34 @@
+table f
+    label f
+    description "table for beneficiary family details"
+    column id
+        type string
+        sql id
+        primary_key true
+    column location_id
+        type string
+        sql locationID        
+    column caste
+        type string
+        sql caste
+    column pr_of_cg
+        type bool
+        sql prOfCG
+    column has_residence_certificate
+        type bool
+        sql hasResidenceCertificate
+    column ration_card_type
+        type string
+        sql rationCardType
+    column ptgo_or_pvtg
+        type bool
+        sql ptgoOrPVTG
+    column are_forest_dwellers
+        type bool
+        sql areForestDwellers
+    column has_phone
+        type bool
+        sql hasPhone
+    column neighbourhood_phone
+        type bool
+        sql CASE WHEN neighbourhoodPhone <> "" THEN TRUE ELSE FALSE END

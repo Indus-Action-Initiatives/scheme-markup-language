@@ -1,0 +1,79 @@
+{
+  "Name": "bocw",
+  "TableNames": ["fm"],
+  "Tables": {
+    "fm": {
+      "Name": "fm",
+      "DataSource": "",
+      "SQL": "fm",
+      "ColumnNames": ["id", "age"],
+      "Columns": {
+        "age": {
+          "Name": "age",
+          "SQL": "age",
+          "Label": "Age",
+          "Format": "",
+          "Type": "int",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "id": {
+          "Name": "id",
+          "SQL": "id",
+          "Label": "Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        }
+      },
+      "Label": "Fm",
+      "Pk": null,
+      "Description": "table for beneficiary data"
+    }
+  },
+  "Datasets": {
+    "main": {
+      "Name": "main",
+      "Label": "Main",
+      "TableNames": ["fm"],
+      "Tables": {
+        "fm": {
+          "Name": "fm",
+          "DataSource": "",
+          "SQL": "fm",
+          "ColumnNames": ["id", "age"],
+          "Columns": {
+            "age": {
+              "Name": "age",
+              "SQL": "age",
+              "Label": "Age",
+              "Format": "",
+              "Type": "int",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "id": {
+              "Name": "id",
+              "SQL": "id",
+              "Label": "Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            }
+          },
+          "Label": "Fm",
+          "Pk": null,
+          "Description": ""
+        }
+      },
+      "Joins": []
+    }
+  },
+  "Schemes": {}
+}

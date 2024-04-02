@@ -1,0 +1,1207 @@
+{
+  "Name": "bocw",
+  "TableNames": ["fm"],
+  "Tables": {
+    "fm": {
+      "Name": "fm",
+      "DataSource": "",
+      "SQL": "fm",
+      "ColumnNames": [
+        "id",
+        "age",
+        "gender",
+        "pregnancy_status",
+        "occupation",
+        "marital_status",
+        "bocw_card_registration_date",
+        "health_status",
+        "number_of_children",
+        "children_school_or_college",
+        "spouse_alive",
+        "occupation_of_surviving_spouse",
+        "spouse_occupation",
+        "receiving_pension",
+        "receiving_government_aid",
+        "home_ownership_status"
+      ],
+      "Columns": {
+        "age": {
+          "Name": "age",
+          "SQL": "age",
+          "Label": "Age",
+          "Format": "",
+          "Type": "int",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "bocw_card_registration_date": {
+          "Name": "bocw_card_registration_date",
+          "SQL": "bocw_card_registration_date",
+          "Label": "Bocw Card Registration Date",
+          "Format": "",
+          "Type": "datetime",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "children_school_or_college": {
+          "Name": "children_school_or_college",
+          "SQL": "children_school_or_college",
+          "Label": "Children School Or College",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "gender": {
+          "Name": "gender",
+          "SQL": "gender",
+          "Label": "Gender",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SQL": "health_status",
+          "Label": "Health Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "home_ownership_status": {
+          "Name": "home_ownership_status",
+          "SQL": "home_ownership_status",
+          "Label": "Home Ownership Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "id": {
+          "Name": "id",
+          "SQL": "id",
+          "Label": "Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "marital_status": {
+          "Name": "marital_status",
+          "SQL": "marital_status",
+          "Label": "Marital Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "number_of_children": {
+          "Name": "number_of_children",
+          "SQL": "number_of_children",
+          "Label": "Number Of Children",
+          "Format": "",
+          "Type": "int",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SQL": "occupation",
+          "Label": "Occupation",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "occupation_of_surviving_spouse": {
+          "Name": "occupation_of_surviving_spouse",
+          "SQL": "occupation_of_surviving_spouse",
+          "Label": "Occupation Of Surviving Spouse",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "pregnancy_status": {
+          "Name": "pregnancy_status",
+          "SQL": "pregnancy_status",
+          "Label": "Pregnancy Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "receiving_government_aid": {
+          "Name": "receiving_government_aid",
+          "SQL": "receiving_government_aid",
+          "Label": "Receiving Government Aid",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "receiving_pension": {
+          "Name": "receiving_pension",
+          "SQL": "receiving_pension",
+          "Label": "Receiving Pension",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "spouse_alive": {
+          "Name": "spouse_alive",
+          "SQL": "spouse_alive",
+          "Label": "Spouse Alive",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "spouse_occupation": {
+          "Name": "spouse_occupation",
+          "SQL": "occupation_of_surviving_spouse",
+          "Label": "Spouse Occupation",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        }
+      },
+      "Label": "fm",
+      "Pk": null,
+      "Description": "table for beneficiary data"
+    }
+  },
+  "Datasets": {
+    "main": {
+      "Name": "main",
+      "Label": "Main",
+      "TableNames": ["fm"],
+      "Tables": {
+        "fm": {
+          "Name": "fm",
+          "DataSource": "",
+          "SQL": "fm",
+          "ColumnNames": [
+            "id",
+            "age",
+            "gender",
+            "pregnancy_status",
+            "occupation",
+            "marital_status",
+            "bocw_card_registration_date",
+            "health_status",
+            "number_of_children",
+            "children_school_or_college",
+            "spouse_alive",
+            "occupation_of_surviving_spouse",
+            "spouse_occupation",
+            "receiving_pension",
+            "receiving_government_aid",
+            "home_ownership_status"
+          ],
+          "Columns": {
+            "age": {
+              "Name": "age",
+              "SQL": "age",
+              "Label": "Age",
+              "Format": "",
+              "Type": "int",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "bocw_card_registration_date": {
+              "Name": "bocw_card_registration_date",
+              "SQL": "bocw_card_registration_date",
+              "Label": "Bocw Card Registration Date",
+              "Format": "",
+              "Type": "datetime",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "children_school_or_college": {
+              "Name": "children_school_or_college",
+              "SQL": "children_school_or_college",
+              "Label": "Children School Or College",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "gender": {
+              "Name": "gender",
+              "SQL": "gender",
+              "Label": "Gender",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "health_status": {
+              "Name": "health_status",
+              "SQL": "health_status",
+              "Label": "Health Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "home_ownership_status": {
+              "Name": "home_ownership_status",
+              "SQL": "home_ownership_status",
+              "Label": "Home Ownership Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "id": {
+              "Name": "id",
+              "SQL": "id",
+              "Label": "Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "marital_status": {
+              "Name": "marital_status",
+              "SQL": "marital_status",
+              "Label": "Marital Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "number_of_children": {
+              "Name": "number_of_children",
+              "SQL": "number_of_children",
+              "Label": "Number Of Children",
+              "Format": "",
+              "Type": "int",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "occupation": {
+              "Name": "occupation",
+              "SQL": "occupation",
+              "Label": "Occupation",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "occupation_of_surviving_spouse": {
+              "Name": "occupation_of_surviving_spouse",
+              "SQL": "occupation_of_surviving_spouse",
+              "Label": "Occupation Of Surviving Spouse",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "pregnancy_status": {
+              "Name": "pregnancy_status",
+              "SQL": "pregnancy_status",
+              "Label": "Pregnancy Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "receiving_government_aid": {
+              "Name": "receiving_government_aid",
+              "SQL": "receiving_government_aid",
+              "Label": "Receiving Government Aid",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "receiving_pension": {
+              "Name": "receiving_pension",
+              "SQL": "receiving_pension",
+              "Label": "Receiving Pension",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "spouse_alive": {
+              "Name": "spouse_alive",
+              "SQL": "spouse_alive",
+              "Label": "Spouse Alive",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "spouse_occupation": {
+              "Name": "spouse_occupation",
+              "SQL": "occupation_of_surviving_spouse",
+              "Label": "Spouse Occupation",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            }
+          },
+          "Label": "fm",
+          "Pk": null,
+          "Description": ""
+        }
+      },
+      "Joins": []
+    }
+  },
+  "Schemes": {
+    "death_benefit": {
+      "Name": "death_benefit",
+      "Label": "Compensation in case of Death (Accident/Natural Death)",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Deceased"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["occupation", "health_status", "card_registration"],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "disability_compensation": {
+      "Name": "disability_compensation",
+      "Label": "Compensation for disability",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Permanent disability as per disability certificate"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["occupation", "health_status", "card_registration"],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "disability_pension": {
+      "Name": "disability_pension",
+      "Label": "Disability Pension",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Permanent disability as per disability certificate"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["occupation", "health_status", "card_registration"],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "education_assistance_school": {
+      "Name": "education_assistance_school",
+      "Label": "Education Assistance (School)",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "children_in_school": {
+          "Name": "children_in_school",
+          "SimpleTerm": {
+            "Column": "children_school_or_college",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["school"]
+          },
+          "CombinationTerm": null
+        },
+        "number_of_children": {
+          "Name": "number_of_children",
+          "SimpleTerm": {
+            "Column": "number_of_children",
+            "Table": "fm",
+            "Operator": "gte",
+            "Granularity": "",
+            "Value": [1]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "occupation",
+        "number_of_children",
+        "children_in_school",
+        "card_registration"
+      ],
+      "Evaluation": "occupation \u0026\u0026 number_of_children \u0026\u0026 children_in_school \u0026\u0026 card_registration"
+    },
+    "family_pension": {
+      "Name": "family_pension",
+      "Label": "Family Pension",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [1]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Deceased"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        },
+        "spouse_alive": {
+          "Name": "spouse_alive",
+          "SimpleTerm": {
+            "Column": "spouse_alive",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": [true]
+          },
+          "CombinationTerm": null
+        },
+        "spouse_occupation": {
+          "Name": "spouse_occupation",
+          "SimpleTerm": {
+            "Column": "spouse_occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Pensioner"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "occupation",
+        "health_status",
+        "spouse_alive",
+        "spouse_occupation",
+        "card_registration"
+      ],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 spouse_alive \u0026\u0026 spouse_occupation \u0026\u0026 card_registration"
+    },
+    "funeral_assistance": {
+      "Name": "funeral_assistance",
+      "Label": "Funeral Assistance",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Deceased"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["occupation", "health_status", "card_registration"],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "house_purchase_advance": {
+      "Name": "house_purchase_advance",
+      "Label": "Advance for purchase or construction of the house",
+      "Description": "",
+      "Criteria": {
+        "age": {
+          "Name": "age",
+          "SimpleTerm": {
+            "Column": "age",
+            "Table": "fm",
+            "Operator": "lt",
+            "Granularity": "",
+            "Value": [50]
+          },
+          "CombinationTerm": null
+        },
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [5]
+          },
+          "CombinationTerm": null
+        },
+        "home_ownership_status": {
+          "Name": "home_ownership_status",
+          "SimpleTerm": {
+            "Column": "home_ownership_status",
+            "Table": "fm",
+            "Operator": "IN",
+            "Granularity": "",
+            "Value": ["'Owner'", "'Going to purchase'"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "age",
+        "occupation",
+        "home_ownership_status",
+        "card_registration"
+      ],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 home_ownership_status \u0026\u0026 card_registration"
+    },
+    "maternity_benefit": {
+      "Name": "maternity_benefit",
+      "Label": "Maternity Benefit",
+      "Description": "Maternity benefits of Rs. 30,000 to registered women members \n    and wives of male members (upto 2 children). (Rule – 271) – from the date of joining membership of the fund.",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "gender_and_age": {
+          "Name": "gender_and_age",
+          "SimpleTerm": null,
+          "CombinationTerm": {
+            "LogicalOperator": "OR",
+            "Terms": [
+              {
+                "Name": "male_gender_and_age",
+                "SimpleTerm": null,
+                "CombinationTerm": {
+                  "LogicalOperator": "AND",
+                  "Terms": [
+                    {
+                      "Name": "male_gender",
+                      "SimpleTerm": {
+                        "Column": "gender",
+                        "Table": "fm",
+                        "Operator": "equals",
+                        "Granularity": "",
+                        "Value": ["male"]
+                      },
+                      "CombinationTerm": null
+                    },
+                    {
+                      "Name": "male_age",
+                      "SimpleTerm": {
+                        "Column": "age",
+                        "Table": "fm",
+                        "Operator": "gte",
+                        "Granularity": "",
+                        "Value": [21]
+                      },
+                      "CombinationTerm": null
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "female_gender_and_age",
+                "SimpleTerm": null,
+                "CombinationTerm": {
+                  "LogicalOperator": "AND",
+                  "Terms": [
+                    {
+                      "Name": "female_gender",
+                      "SimpleTerm": {
+                        "Column": "gender",
+                        "Table": "fm",
+                        "Operator": "equals",
+                        "Granularity": "",
+                        "Value": ["female"]
+                      },
+                      "CombinationTerm": null
+                    },
+                    {
+                      "Name": "female_age",
+                      "SimpleTerm": {
+                        "Column": "age",
+                        "Table": "fm",
+                        "Operator": "gte",
+                        "Granularity": "",
+                        "Value": [18]
+                      },
+                      "CombinationTerm": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "marital_status": {
+          "Name": "marital_status",
+          "SimpleTerm": {
+            "Column": "marital_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Married"]
+          },
+          "CombinationTerm": null
+        },
+        "number_of_children": {
+          "Name": "number_of_children",
+          "SimpleTerm": {
+            "Column": "number_of_children",
+            "Table": "fm",
+            "Operator": "gte",
+            "Granularity": "",
+            "Value": [1]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        },
+        "pregnancy_status": {
+          "Name": "pregnancy_status",
+          "SimpleTerm": {
+            "Column": "pregnancy_status",
+            "Table": "fm",
+            "Operator": "IN",
+            "Granularity": "",
+            "Value": ["'Delivered first child'", "'Delivered second child'"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "gender_and_age",
+        "occupation",
+        "marital_status",
+        "pregnancy_status",
+        "number_of_children",
+        "card_registration"
+      ],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 marital_status \u0026\u0026 pregnancy_status \u0026\u0026 number_of_children \u0026\u0026 card_registration"
+    },
+    "medical_assistance": {
+      "Name": "medical_assistance",
+      "Label": "Medical Assistance",
+      "Description": "Financial Assistance for marriage of self and for children (upto 2 children). (Rule – 282), the building workers having continuous membership of 03 years shall be eligible. The details are as under:-\n    Marriage of female registered member – Rs.51,000/-\n    Marriage of male registered member    - Rs.35,000/-\n    Marriage of daughter of registered members – Rs.51,000/-\n    Marriage of son of registered members – Rs.35,000/\n    and wives of male members (upto 2 children). (Rule – 271) – from the date of joining membership of the fund.",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "IN",
+            "Granularity": "",
+            "Value": [
+              "'Hospitalised for more than 5 days'",
+              "'In plaster at residence'"
+            ]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["occupation", "health_status", "card_registration"],
+      "Evaluation": "occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "miscarriage_compensation": {
+      "Name": "miscarriage_compensation",
+      "Label": "Compensation in case of miscarriage",
+      "Description": "",
+      "Criteria": {
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [0]
+          },
+          "CombinationTerm": null
+        },
+        "gender_and_age": {
+          "Name": "gender_and_age",
+          "SimpleTerm": null,
+          "CombinationTerm": {
+            "LogicalOperator": "OR",
+            "Terms": [
+              {
+                "Name": "male_gender_and_age",
+                "SimpleTerm": null,
+                "CombinationTerm": {
+                  "LogicalOperator": "AND",
+                  "Terms": [
+                    {
+                      "Name": "male_gender",
+                      "SimpleTerm": {
+                        "Column": "gender",
+                        "Table": "fm",
+                        "Operator": "equals",
+                        "Granularity": "",
+                        "Value": ["male"]
+                      },
+                      "CombinationTerm": null
+                    },
+                    {
+                      "Name": "male_age",
+                      "SimpleTerm": {
+                        "Column": "age",
+                        "Table": "fm",
+                        "Operator": "gte",
+                        "Granularity": "",
+                        "Value": [21]
+                      },
+                      "CombinationTerm": null
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "female_gender_and_age",
+                "SimpleTerm": null,
+                "CombinationTerm": {
+                  "LogicalOperator": "AND",
+                  "Terms": [
+                    {
+                      "Name": "female_gender",
+                      "SimpleTerm": {
+                        "Column": "gender",
+                        "Table": "fm",
+                        "Operator": "equals",
+                        "Granularity": "",
+                        "Value": ["female"]
+                      },
+                      "CombinationTerm": null
+                    },
+                    {
+                      "Name": "female_age",
+                      "SimpleTerm": {
+                        "Column": "age",
+                        "Table": "fm",
+                        "Operator": "gte",
+                        "Granularity": "",
+                        "Value": [18]
+                      },
+                      "CombinationTerm": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "marital_status": {
+          "Name": "marital_status",
+          "SimpleTerm": {
+            "Column": "marital_status",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Married"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        },
+        "pregnancy_status": {
+          "Name": "pregnancy_status",
+          "SimpleTerm": {
+            "Column": "pregnancy_status",
+            "Table": "fm",
+            "Operator": "IN",
+            "Granularity": "",
+            "Value": ["'Miscarriage'", "'Still born'"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "gender_and_age",
+        "occupation",
+        "marital_status",
+        "pregnancy_status",
+        "card_registration"
+      ],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 marital_status \u0026\u0026 pregnancy_status \u0026\u0026 card_registration"
+    },
+    "old_age_pension": {
+      "Name": "old_age_pension",
+      "Label": "Old Age Pension Benefit",
+      "Description": "",
+      "Criteria": {
+        "age": {
+          "Name": "age",
+          "SimpleTerm": {
+            "Column": "age",
+            "Table": "fm",
+            "Operator": "gt",
+            "Granularity": "",
+            "Value": [60]
+          },
+          "CombinationTerm": null
+        },
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [3]
+          },
+          "CombinationTerm": null
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SimpleTerm": {
+            "Column": "health_status",
+            "Table": "fm",
+            "Operator": "ne",
+            "Granularity": "",
+            "Value": ["Deceased"]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": [
+        "age",
+        "occupation",
+        "health_status",
+        "card_registration"
+      ],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 health_status \u0026\u0026 card_registration"
+    },
+    "work_tools_grant": {
+      "Name": "work_tools_grant",
+      "Label": "Grant for purchase of work-related tools",
+      "Description": "",
+      "Criteria": {
+        "age": {
+          "Name": "age",
+          "SimpleTerm": {
+            "Column": "age",
+            "Table": "fm",
+            "Operator": "lt",
+            "Granularity": "",
+            "Value": [55]
+          },
+          "CombinationTerm": null
+        },
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [3]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["age", "occupation", "card_registration"],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 card_registration"
+    },
+    "work_tools_loan": {
+      "Name": "work_tools_loan",
+      "Label": "Loan for purchase of work tools",
+      "Description": "",
+      "Criteria": {
+        "age": {
+          "Name": "age",
+          "SimpleTerm": {
+            "Column": "age",
+            "Table": "fm",
+            "Operator": "lt",
+            "Granularity": "",
+            "Value": [55]
+          },
+          "CombinationTerm": null
+        },
+        "card_registration": {
+          "Name": "card_registration",
+          "SimpleTerm": {
+            "Column": "bocw_card_registration_date",
+            "Table": "fm",
+            "Operator": "age_gte",
+            "Granularity": "year",
+            "Value": [3]
+          },
+          "CombinationTerm": null
+        },
+        "occupation": {
+          "Name": "occupation",
+          "SimpleTerm": {
+            "Column": "occupation",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["Construction Worker"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["age", "occupation", "card_registration"],
+      "Evaluation": "age \u0026\u0026 occupation \u0026\u0026 card_registration"
+    }
+  }
+}

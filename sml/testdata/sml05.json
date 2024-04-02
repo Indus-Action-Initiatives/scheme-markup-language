@@ -1,0 +1,978 @@
+{
+  "Name": "bocw",
+  "TableNames": ["fm", "f", "locations"],
+  "Tables": {
+    "f": {
+      "Name": "f",
+      "DataSource": "",
+      "SQL": "f",
+      "ColumnNames": [
+        "id",
+        "location_id",
+        "caste",
+        "pr_of_cg",
+        "has_residence_certificate",
+        "ration_card_type",
+        "ptgo_or_pvtg",
+        "are_forest_dwellers",
+        "has_phone",
+        "neighbourhood_phone"
+      ],
+      "Columns": {
+        "are_forest_dwellers": {
+          "Name": "are_forest_dwellers",
+          "SQL": "areForestDwellers",
+          "Label": "Are Forest Dwellers",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "caste": {
+          "Name": "caste",
+          "SQL": "caste",
+          "Label": "Caste",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "has_phone": {
+          "Name": "has_phone",
+          "SQL": "hasPhone",
+          "Label": "Has Phone",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "has_residence_certificate": {
+          "Name": "has_residence_certificate",
+          "SQL": "hasResidenceCertificate",
+          "Label": "Has Residence Certificate",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "id": {
+          "Name": "id",
+          "SQL": "id",
+          "Label": "Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "location_id": {
+          "Name": "location_id",
+          "SQL": "locationID",
+          "Label": "Location Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "neighbourhood_phone": {
+          "Name": "neighbourhood_phone",
+          "SQL": "CASE WHEN neighbourhoodPhone \u003c\u003e \"\" THEN TRUE ELSE FALSE END",
+          "Label": "Neighbourhood Phone",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "pr_of_cg": {
+          "Name": "pr_of_cg",
+          "SQL": "prOfCG",
+          "Label": "Pr Of Cg",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "ptgo_or_pvtg": {
+          "Name": "ptgo_or_pvtg",
+          "SQL": "ptgoOrPVTG",
+          "Label": "Ptgo Or Pvtg",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "ration_card_type": {
+          "Name": "ration_card_type",
+          "SQL": "rationCardType",
+          "Label": "Ration Card Type",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        }
+      },
+      "Label": "F",
+      "Pk": null,
+      "Description": "table for beneficiary family details"
+    },
+    "fm": {
+      "Name": "fm",
+      "DataSource": "",
+      "SQL": "fm",
+      "ColumnNames": [
+        "id",
+        "age",
+        "dob",
+        "gender",
+        "pregnancy_status",
+        "marital_status",
+        "has_bocw_card",
+        "bocw_card_registration_date",
+        "health_status",
+        "number_of_children",
+        "children_school_or_college",
+        "spouse_alive",
+        "father_bocw",
+        "occupation_of_surviving_spouse",
+        "spouse_occupation",
+        "receiving_pension",
+        "receiving_government_aid",
+        "home_ownership_status"
+      ],
+      "Columns": {
+        "age": {
+          "Name": "age",
+          "SQL": "age",
+          "Label": "Age",
+          "Format": "",
+          "Type": "int",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "bocw_card_registration_date": {
+          "Name": "bocw_card_registration_date",
+          "SQL": "bocw_card_registration_date",
+          "Label": "Bocw Card Registration Date",
+          "Format": "",
+          "Type": "datetime",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "children_school_or_college": {
+          "Name": "children_school_or_college",
+          "SQL": "children_school_or_college",
+          "Label": "Children School Or College",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "dob": {
+          "Name": "dob",
+          "SQL": "dob",
+          "Label": "Dob",
+          "Format": "",
+          "Type": "datetime",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "father_bocw": {
+          "Name": "father_bocw",
+          "SQL": "father_bocw",
+          "Label": "Father Bocw",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "gender": {
+          "Name": "gender",
+          "SQL": "gender",
+          "Label": "Gender",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "has_bocw_card": {
+          "Name": "has_bocw_card",
+          "SQL": "has_bocw_card",
+          "Label": "Has Bocw Card",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "health_status": {
+          "Name": "health_status",
+          "SQL": "health_status",
+          "Label": "Health Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "home_ownership_status": {
+          "Name": "home_ownership_status",
+          "SQL": "home_ownership_status",
+          "Label": "Home Ownership Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "id": {
+          "Name": "id",
+          "SQL": "id",
+          "Label": "Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "marital_status": {
+          "Name": "marital_status",
+          "SQL": "marital_status",
+          "Label": "Marital Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "number_of_children": {
+          "Name": "number_of_children",
+          "SQL": "number_of_children",
+          "Label": "Number Of Children",
+          "Format": "",
+          "Type": "int",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "occupation_of_surviving_spouse": {
+          "Name": "occupation_of_surviving_spouse",
+          "SQL": "occupation_of_surviving_spouse",
+          "Label": "Occupation Of Surviving Spouse",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "pregnancy_status": {
+          "Name": "pregnancy_status",
+          "SQL": "pregnancy_status",
+          "Label": "Pregnancy Status",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "receiving_government_aid": {
+          "Name": "receiving_government_aid",
+          "SQL": "receiving_government_aid",
+          "Label": "Receiving Government Aid",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "receiving_pension": {
+          "Name": "receiving_pension",
+          "SQL": "receiving_pension",
+          "Label": "Receiving Pension",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "spouse_alive": {
+          "Name": "spouse_alive",
+          "SQL": "spouse_alive",
+          "Label": "Spouse Alive",
+          "Format": "",
+          "Type": "bool",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "spouse_occupation": {
+          "Name": "spouse_occupation",
+          "SQL": "occupation_of_surviving_spouse",
+          "Label": "Spouse Occupation",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        }
+      },
+      "Label": "Fm",
+      "Pk": null,
+      "Description": "table for beneficiary data"
+    },
+    "locations": {
+      "Name": "locations",
+      "DataSource": "",
+      "SQL": "locations",
+      "ColumnNames": [
+        "id",
+        "area_type",
+        "pincode",
+        "ward_number",
+        "ward_name",
+        "village",
+        "surveyVillageTownCity"
+      ],
+      "Columns": {
+        "area_type": {
+          "Name": "area_type",
+          "SQL": "area_type",
+          "Label": "Area Type",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "id": {
+          "Name": "id",
+          "SQL": "id",
+          "Label": "Id",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "pincode": {
+          "Name": "pincode",
+          "SQL": "pincode",
+          "Label": "Pincode",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "surveyVillageTownCity": {
+          "Name": "surveyVillageTownCity",
+          "SQL": "surveyVillageTownCity",
+          "Label": "SurveyVillageTownCity",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "village": {
+          "Name": "village",
+          "SQL": "village",
+          "Label": "Village",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "ward_name": {
+          "Name": "ward_name",
+          "SQL": "wardName",
+          "Label": "Ward Name",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        },
+        "ward_number": {
+          "Name": "ward_number",
+          "SQL": "wardNumber",
+          "Label": "Ward Number",
+          "Format": "",
+          "Type": "string",
+          "Description": "",
+          "Transformer": "",
+          "TransformerName": ""
+        }
+      },
+      "Label": "Locations",
+      "Pk": null,
+      "Description": ""
+    }
+  },
+  "Datasets": {
+    "main": {
+      "Name": "main",
+      "Label": "Main",
+      "TableNames": ["fm", "f", "locations"],
+      "Tables": {
+        "f": {
+          "Name": "f",
+          "DataSource": "",
+          "SQL": "f",
+          "ColumnNames": [
+            "id",
+            "location_id",
+            "caste",
+            "pr_of_cg",
+            "has_residence_certificate",
+            "ration_card_type",
+            "ptgo_or_pvtg",
+            "are_forest_dwellers",
+            "has_phone",
+            "neighbourhood_phone"
+          ],
+          "Columns": {
+            "are_forest_dwellers": {
+              "Name": "are_forest_dwellers",
+              "SQL": "areForestDwellers",
+              "Label": "Are Forest Dwellers",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "caste": {
+              "Name": "caste",
+              "SQL": "caste",
+              "Label": "Caste",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "has_phone": {
+              "Name": "has_phone",
+              "SQL": "hasPhone",
+              "Label": "Has Phone",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "has_residence_certificate": {
+              "Name": "has_residence_certificate",
+              "SQL": "hasResidenceCertificate",
+              "Label": "Has Residence Certificate",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "id": {
+              "Name": "id",
+              "SQL": "id",
+              "Label": "Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "location_id": {
+              "Name": "location_id",
+              "SQL": "locationID",
+              "Label": "Location Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "neighbourhood_phone": {
+              "Name": "neighbourhood_phone",
+              "SQL": "CASE WHEN neighbourhoodPhone \u003c\u003e \"\" THEN TRUE ELSE FALSE END",
+              "Label": "Neighbourhood Phone",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "pr_of_cg": {
+              "Name": "pr_of_cg",
+              "SQL": "prOfCG",
+              "Label": "Pr Of Cg",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "ptgo_or_pvtg": {
+              "Name": "ptgo_or_pvtg",
+              "SQL": "ptgoOrPVTG",
+              "Label": "Ptgo Or Pvtg",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "ration_card_type": {
+              "Name": "ration_card_type",
+              "SQL": "rationCardType",
+              "Label": "Ration Card Type",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            }
+          },
+          "Label": "F",
+          "Pk": null,
+          "Description": ""
+        },
+        "fm": {
+          "Name": "fm",
+          "DataSource": "",
+          "SQL": "fm",
+          "ColumnNames": [
+            "id",
+            "age",
+            "dob",
+            "gender",
+            "pregnancy_status",
+            "marital_status",
+            "has_bocw_card",
+            "bocw_card_registration_date",
+            "health_status",
+            "number_of_children",
+            "children_school_or_college",
+            "spouse_alive",
+            "father_bocw",
+            "occupation_of_surviving_spouse",
+            "spouse_occupation",
+            "receiving_pension",
+            "receiving_government_aid",
+            "home_ownership_status"
+          ],
+          "Columns": {
+            "age": {
+              "Name": "age",
+              "SQL": "age",
+              "Label": "Age",
+              "Format": "",
+              "Type": "int",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "bocw_card_registration_date": {
+              "Name": "bocw_card_registration_date",
+              "SQL": "bocw_card_registration_date",
+              "Label": "Bocw Card Registration Date",
+              "Format": "",
+              "Type": "datetime",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "children_school_or_college": {
+              "Name": "children_school_or_college",
+              "SQL": "children_school_or_college",
+              "Label": "Children School Or College",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "dob": {
+              "Name": "dob",
+              "SQL": "dob",
+              "Label": "Dob",
+              "Format": "",
+              "Type": "datetime",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "father_bocw": {
+              "Name": "father_bocw",
+              "SQL": "father_bocw",
+              "Label": "Father Bocw",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "gender": {
+              "Name": "gender",
+              "SQL": "gender",
+              "Label": "Gender",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "has_bocw_card": {
+              "Name": "has_bocw_card",
+              "SQL": "has_bocw_card",
+              "Label": "Has Bocw Card",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "health_status": {
+              "Name": "health_status",
+              "SQL": "health_status",
+              "Label": "Health Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "home_ownership_status": {
+              "Name": "home_ownership_status",
+              "SQL": "home_ownership_status",
+              "Label": "Home Ownership Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "id": {
+              "Name": "id",
+              "SQL": "id",
+              "Label": "Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "marital_status": {
+              "Name": "marital_status",
+              "SQL": "marital_status",
+              "Label": "Marital Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "number_of_children": {
+              "Name": "number_of_children",
+              "SQL": "number_of_children",
+              "Label": "Number Of Children",
+              "Format": "",
+              "Type": "int",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "occupation_of_surviving_spouse": {
+              "Name": "occupation_of_surviving_spouse",
+              "SQL": "occupation_of_surviving_spouse",
+              "Label": "Occupation Of Surviving Spouse",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "pregnancy_status": {
+              "Name": "pregnancy_status",
+              "SQL": "pregnancy_status",
+              "Label": "Pregnancy Status",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "receiving_government_aid": {
+              "Name": "receiving_government_aid",
+              "SQL": "receiving_government_aid",
+              "Label": "Receiving Government Aid",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "receiving_pension": {
+              "Name": "receiving_pension",
+              "SQL": "receiving_pension",
+              "Label": "Receiving Pension",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "spouse_alive": {
+              "Name": "spouse_alive",
+              "SQL": "spouse_alive",
+              "Label": "Spouse Alive",
+              "Format": "",
+              "Type": "bool",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "spouse_occupation": {
+              "Name": "spouse_occupation",
+              "SQL": "occupation_of_surviving_spouse",
+              "Label": "Spouse Occupation",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            }
+          },
+          "Label": "Fm",
+          "Pk": null,
+          "Description": ""
+        },
+        "locations": {
+          "Name": "locations",
+          "DataSource": "",
+          "SQL": "locations",
+          "ColumnNames": [
+            "id",
+            "area_type",
+            "pincode",
+            "ward_number",
+            "ward_name",
+            "village",
+            "surveyVillageTownCity"
+          ],
+          "Columns": {
+            "area_type": {
+              "Name": "area_type",
+              "SQL": "area_type",
+              "Label": "Area Type",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "id": {
+              "Name": "id",
+              "SQL": "id",
+              "Label": "Id",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "pincode": {
+              "Name": "pincode",
+              "SQL": "pincode",
+              "Label": "Pincode",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "surveyVillageTownCity": {
+              "Name": "surveyVillageTownCity",
+              "SQL": "surveyVillageTownCity",
+              "Label": "SurveyVillageTownCity",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "village": {
+              "Name": "village",
+              "SQL": "village",
+              "Label": "Village",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "ward_name": {
+              "Name": "ward_name",
+              "SQL": "wardName",
+              "Label": "Ward Name",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            },
+            "ward_number": {
+              "Name": "ward_number",
+              "SQL": "wardNumber",
+              "Label": "Ward Number",
+              "Format": "",
+              "Type": "string",
+              "Description": "",
+              "Transformer": "",
+              "TransformerName": ""
+            }
+          },
+          "Label": "Locations",
+          "Pk": null,
+          "Description": ""
+        }
+      },
+      "Joins": [
+        {
+          "OneTable": "",
+          "OneColumns": null,
+          "OTS": [
+            { "Operator": "", "Table": "fm", "SQL": "" },
+            {
+              "Operator": "\u003c-\u003e",
+              "Table": "f",
+              "SQL": "f.id = fm.family_id"
+            }
+          ]
+        },
+        {
+          "OneTable": "",
+          "OneColumns": null,
+          "OTS": [
+            { "Operator": "", "Table": "f", "SQL": "" },
+            {
+              "Operator": "\u003c-\u003e",
+              "Table": "locations",
+              "SQL": "f.location_id = locations.id"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Schemes": {
+    "pm_ujjwala": {
+      "Name": "pm_ujjwala",
+      "Label": "Pradhan Mantri Ujjwala Yojana",
+      "Description": "Free gas cylinders and stoves are provided to registered women laborers or registered construction laborers through the Food Department to the laborer's wife.",
+      "Criteria": {
+        "bocw": {
+          "Name": "bocw",
+          "SimpleTerm": null,
+          "CombinationTerm": {
+            "LogicalOperator": "OR",
+            "Terms": [
+              {
+                "Name": "bocw_card",
+                "SimpleTerm": {
+                  "Column": "has_bocw_card",
+                  "Table": "fm",
+                  "Operator": "equals",
+                  "Granularity": "",
+                  "Value": [true]
+                },
+                "CombinationTerm": null
+              },
+              {
+                "Name": "father_bocw",
+                "SimpleTerm": {
+                  "Column": "father_bocw",
+                  "Table": "fm",
+                  "Operator": "equals",
+                  "Granularity": "",
+                  "Value": [true]
+                },
+                "CombinationTerm": null
+              }
+            ]
+          }
+        },
+        "gender": {
+          "Name": "gender",
+          "SimpleTerm": {
+            "Column": "gender",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["female"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["bocw", "gender"],
+      "Evaluation": "gender \u0026\u0026 bocw"
+    },
+    "sewing_machine": {
+      "Name": "sewing_machine",
+      "Label": "Chief Minister Sewing Machine Assistance Scheme",
+      "Description": "Female construction worker receives sewing machine",
+      "Criteria": {
+        "age": {
+          "Name": "age",
+          "SimpleTerm": {
+            "Column": "dob",
+            "Table": "fm",
+            "Operator": "age_between",
+            "Granularity": "year",
+            "Value": [18, 50]
+          },
+          "CombinationTerm": null
+        },
+        "bocw_card": {
+          "Name": "bocw_card",
+          "SimpleTerm": {
+            "Column": "has_bocw_card",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": [true]
+          },
+          "CombinationTerm": null
+        },
+        "gender": {
+          "Name": "gender",
+          "SimpleTerm": {
+            "Column": "gender",
+            "Table": "fm",
+            "Operator": "equals",
+            "Granularity": "",
+            "Value": ["female"]
+          },
+          "CombinationTerm": null
+        }
+      },
+      "CriteriaNames": ["bocw_card", "age", "gender"],
+      "Evaluation": "bocw_card \u0026\u0026 age \u0026\u0026 gender"
+    }
+  }
+}
