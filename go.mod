@@ -1,4 +1,4 @@
-module github.com/Indus-Action-Initiatives/scheme-markup-language
+module github.com/indus-action-initiatives/scheme-markup-language
 
 go 1.21.5
 
