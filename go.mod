@@ -1,4 +1,4 @@
-module github.com/maagodata/sml
+module github.com/Indus-Action-Initiatives/scheme-markup-language
 
 go 1.21.5
 
